@@ -12,7 +12,7 @@
 		<form action="mail_handler.php" method="post" name="form" class="form-box">
 			<label for="name">Name</label><br>
 			<input type="text" name="name" class="inp" placeholder="Enter Your Name" required><br>
-			<label for="email">Email ID</label><br>
+			<label for="email">Send To</label><br>
 			<input type="email" name="email" class="inp" placeholder="Enter Your Email" required><br>
 			<label for="phone">Phone</label><br>
 			<input type="tel" name="phone" class="inp" placeholder="Enter Your Phone" required><br>
