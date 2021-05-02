@@ -1,12 +1,10 @@
 <?php
 	if(isset($_POST['submit'])){
 		$name=$_POST['name'];
-		$email=$_POST['email'];
+		$to=$_POST['email'];
 		$phone=$_POST['phone'];
-		$msg=$_POST['msg'];
-
-		$to='msnju2010@gmail.com';  
-		$subject='Form Submission';
+		$msg=$_POST['msg'];  
+		$subject='From HR';
 		$message="Name :".$name."\n"."Phone :".$phone."\n"."Wrote the following :"."\n\n".$msg;
 		$headers="From: ".$email;
 
